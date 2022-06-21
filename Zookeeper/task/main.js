@@ -1,4 +1,4 @@
-const input = require('sync-input');
+input = require('sync-input');
 
 const camel = `
 Switching on the camera in the camel habitat...
@@ -121,10 +121,14 @@ Switching on the camera in the rabbit habitat...
 (" ~----( ~   Y.  )
 It looks like we will soon have more rabbits!`;
 
-const animals = [camel, lion, deer, goose, bat, rabbit];
+const habitat = [camel, lion, deer, goose, bat, rabbit];
 
-const answer = input("Which habitat # do you need?");
+let propmt = input("Enter text: ");
 
-console.log(animals[answer]);
-console.log(`---
-You've reached the end of the program. To check another habitat, please restart the watcher.`);
+while (propmt !== `exit`) {
+    console.log()
+    console.log(habitat[propmt]);
+    propmt = input("Enter text: ");
+}
+
+console.log(`See you later!`);
