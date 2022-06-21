@@ -1,9 +1,9 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: Cat!
 - text: Error
 - text: Dog!
+- text: Cat!
 - text: Mystery
 files:
 - name: main.js

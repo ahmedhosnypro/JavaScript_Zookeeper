@@ -17,7 +17,10 @@ files:
     \     ; ;\n           ;,,      !,!   !,!     ;,;\n           /_I      L_I   L_I\
     \     /_I\nLook at that! Our little camel is sunbathing!`\n"
   learner_created: false
-feedback_link: https://hyperskill.org/projects/225/stages/1129/implement#comment
+feedback_link: https://hyperskill.org/learn/step/17231#comment
 check_profile: hyperskill_node_javascript
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 21 Jun 2022 11:45:19 UTC
 record: -1
